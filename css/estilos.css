@@ -5,9 +5,30 @@ body
     font-family:Arial, Helvetica, sans-serif;
 }
 
+#cabecera
+{
+    background: rgb(61, 172, 57);
+    box-shadow: 0px 5px 30px 0px rgb(26, 29, 26);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+
+    margin: 0;
+    padding: 0.5em;
+}
+
 #container 
 {
     width: 70%;
+    padding: 0;
     padding: 1em;
     text-align: left;
     border: 1px solid rgb(238, 8, 8);
@@ -19,4 +40,9 @@ body
     color:rgb(12, 41, 204);
     text-align: left;
     font-size: 20px
+}
+
+#post 
+{
+    padding: 1em;
 }
